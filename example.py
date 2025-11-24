@@ -16,5 +16,4 @@ selected_date = streamlit_dateinput_intl(
    locale="ja"
 )
 
-st.write("selected_date type: ", type(selected_date))
-st.write("selected_date: ", selected_date.strftime("%Y/%m/%d"))
+st.write("selected date: ", selected_date)
