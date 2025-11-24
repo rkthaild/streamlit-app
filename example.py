@@ -3,7 +3,7 @@ from datetime import date, timedelta
 from streamlit_dateinput_intl import streamlit_dateinput_intl
 
 
-st.write("Streamlit dateinput テスト")
+st.write("Streamlit DatePicker Example")
 
 selected_date = streamlit_dateinput_intl(
    value="today",
